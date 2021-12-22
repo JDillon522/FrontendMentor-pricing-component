@@ -1,0 +1,39 @@
+:root {
+    /* --card-bg-color: hsl(234, 14%, 74%); */
+    --card-bg-color: hsla(0, 0%, 100%, 1);
+    --background-color: hsl(240, 78%, 98%);
+    --font-color-light: hsl(233, 13%, 49%);
+    --font-color-dark: hsl(232, 13%, 33%);
+    --purple: #696EDD;
+    --center-card-linear-gradient: linear-gradient(135.06deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+    --border-radius: 10px;
+    --font-size: 15px;
+    --font-family: 'Montserrat', sans-serif;
+
+    --card-height: 500px;
+    --card-width: 350px;
+    --card-padding: 30px;
+    --center-card-neg-margin: -20px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--font-color-dark);
+}
+
+footer {
+    margin-top: auto;
+}
+
+app-card-list {
+    margin: auto;
+}

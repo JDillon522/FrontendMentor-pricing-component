@@ -1,0 +1,13 @@
+{
+  "name": "frontend-mentor-pricing-component",
+  "version": "1.0.0",
+  "description": "An implementation of the pricing-component challenge on Frontend Mentor.",
+  "scripts": {
+    "start": "node node_modules/static-server/bin/static-server.js -p 3000"
+  },
+  "devDependencies": {
+    "static-server": "^2.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
